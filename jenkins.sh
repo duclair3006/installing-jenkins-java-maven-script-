@@ -84,7 +84,13 @@ echo                  $'\e[1;33m'$MAVEN_HOME $'\e[0m'
 echo
 sleep 2
 echo                  $'\e[1;33m'$JAVA_HOME $'\e[0m'
-
+echo
+echo
+echo
+echo " Here is your Jenkins password"
+echo
+cat /var/lib/jenkins/secrets/initialAdminPassword
+echo 
 echo
 echo Now that this was successful go to jenkins set maven and java home using information above
 
